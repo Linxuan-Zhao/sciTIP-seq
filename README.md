@@ -3,6 +3,6 @@ sciTIP-seq repo covers main commands and scripts used in sciTIP-seq, ATAC-seq an
 
 ## sciTIP-seq data analysis
 
-'Barcode Extraction'
+`Barcode Extraction`
 
-'Demutiplexing'
+`Demutiplexing`
