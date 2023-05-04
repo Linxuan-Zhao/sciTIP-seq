@@ -5,4 +5,4 @@ sciTIP-seq repo covers main commands and scripts used in sciTIP-seq, ATAC-seq an
 
 `Barcode Extraction`
 
-`Demutiplexing`
+`29nt i5 index generator`
