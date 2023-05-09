@@ -26,3 +26,5 @@ module load bcl2fastq/2.20.0
 
 bcl1fastq -R scseq_0501 --output-dir fastqs_EpiLC_sciTIP_row_E --barcode-mismatch 0 --minimum-trimmed-read-length 0 --mask-short-adapter-reads 0
 
+### Following command filter out the raw fastq files that less than 8 kb
+find fastqs_EpiLC_sciTIP_row_A -type f -size +8k -exec cp {} A_filtered \;
