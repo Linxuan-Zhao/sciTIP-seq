@@ -12,6 +12,8 @@ sciTIP-seq repo covers main commands and scripts used in sciTIP-seq, Bulk ATAC-s
 
 `sciTIP_all_barcode_combi_generator` A Python script that takes a CSV file that contains the r5, spacer, i5, and i7 sequences as input and returns all possible barcode combinations for sciTIP-seq data demultiplexing. 
 
+`moving_fastq` A bash script that recognizes the r5 barcode number and relocates the files based on the initial experimental setting. The barcode number range and the sample name need to be changed based on the wet lab.
+
 
 ### Other_files
 
