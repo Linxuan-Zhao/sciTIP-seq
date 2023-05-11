@@ -15,6 +15,11 @@ sciTIP-seq repo covers main commands and scripts used in sciTIP-seq, Bulk ATAC-s
 `moving_fastq` A bash script that recognizes the r5 barcode number and relocates the files based on the initial experimental setting. The barcode number range and the sample name need to be changed based on the wet lab.
 
 
+### Bulk_seq_analysis
+
+This folder mainly contains plotting scripts (mainly Bash and R) to plot the correlation matrix, PCA plot, enrichment plot based on bulk (or pseudobulk) libraries.
+
+
 ### Other_files
 
-This folder mainly contains the exmaple input and output files for script testing and other bash commands used in my project.
+This folder mainly contains the exmaple input and output files for script testing, plotting and other bash commands used in my project.
